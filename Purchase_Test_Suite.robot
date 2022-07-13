@@ -163,7 +163,7 @@ TC09 - Continue purchase with standard_user
     When I click on the LogoutButton
     Then logout is performed
 
-Tc10 - Continue purchase with problem_user
+TC10 - Continue purchase with problem_user
     Given I access the loginPage
     When I complete the field User with "problem_user" 
     And I complete the field Password with "secret_sauce"
