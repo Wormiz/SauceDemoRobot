@@ -61,6 +61,7 @@ ${btnContinueShopping}              //button[@id='continue-shopping']
 
 *** Keywords ***
 I access the loginPage
+    Open Browser                                ${url}                              ${browser}
     Maximize Browser Window
     Title Should Be                             Swag Labs
 
