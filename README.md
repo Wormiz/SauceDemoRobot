@@ -41,8 +41,8 @@ At https://docs.microsoft.com/en-us/microsoft-edge/webdriver-chromium/?tabs=c-sh
 
 ## Project Structure
 *SauceDemoRobot* -> Main Folder
-    * resources -> Folder containing libraries, variables and steps developed with keyword
-    * tests -> Folder containing the feature written in gherkin format
+* resources -> Folder containing libraries, variables and steps developed with keyword
+* tests -> Folder containing the feature written in gherkin format
 
 ## Language
 The project are develop with BDD structure dividing it into a feature containing the scenarios and a file to compose the steps along with the applied logic.
