@@ -61,6 +61,7 @@ ${btnContinueShopping}              //button[@id='continue-shopping']
 
 *** Keywords ***
 I access the loginPage
+    Maximize Browser Window
     Title Should Be                             Swag Labs
 
 I complete the field User with "${user}" 
