@@ -1,6 +1,5 @@
 *** Settings ***
 Resource        ../resources/Purchase_Keywords.resource
-Suite Setup     Open Browser    ${url}  ${browser}
 Test Teardown   Close Browser
 
 
